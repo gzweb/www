@@ -1,25 +1,15 @@
 
-import {Tools} from "../../tool/Tools";
-import {WalletTool} from "../../tool/WalletTool";
-import {AbstractPrj} from "./../AbstractPrj";
-import {TradeModel} from "../../model/TradeModel";
+import {Tools} from "tool/Tools";
+import {WalletTool} from "tool/WalletTool";
+import {AbstractPrj} from "AbstractPrj"; 
 import { Account, shortString,ec,Signature,Provider,stark,TransactionStatus,hash,CallData } from "starknet";
 
-import {StarkNetWalletTool} from "../../tool/StarkNetWalletTool";
+import {StarkNetWalletTool} from "tool/StarkNetWalletTool";
 
 
 export class UpgradePrj extends AbstractPrj{
 
-    maxGas = 6;
-
-    getTradeType() {
-        return TradeModel.TYPE_Upgrade;
-    }
-
-    getTradeId() {
-        return 6055;
-    }
-
+    maxGas = 6; 
     async before(transferInfo) {
         console.log("before...");
         // const createDomainContract = "0x04942ebdc9fc996a42adb4a825e9070737fe68cef32a64a616ba5528d457812e";

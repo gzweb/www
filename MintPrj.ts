@@ -1,11 +1,10 @@
 
-import {Tools} from "../../tool/Tools";
-import {WalletTool} from "../../tool/WalletTool";
-import {AbstractPrj} from "./../AbstractPrj";
-import {TradeModel} from "../../model/TradeModel";
+import {Tools} from "tool/Tools";
+import {WalletTool} from "tool/WalletTool";
+import {AbstractPrj} from "AbstractPrj"; 
 import { Account, shortString,ec,Signature,Provider,stark,TransactionStatus,hash,CallData } from "starknet";
 
-import {StarkNetWalletTool} from "../../tool/StarkNetWalletTool";
+import {StarkNetWalletTool} from "tool/StarkNetWalletTool";
 
 
 export class MintPrj extends AbstractPrj{ 

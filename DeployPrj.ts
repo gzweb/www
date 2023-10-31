@@ -1,8 +1,8 @@
  
-import {WalletTool} from "../../tool/WalletTool"; 
+import {WalletTool} from "tool/WalletTool"; 
 import { Account, shortString,ec,Signature,Provider,stark,TransactionStatus,hash,CallData } from "starknet";
 
-import {StarkNetWalletTool} from "../../tool/StarkNetWalletTool";
+import {StarkNetWalletTool} from "tool/StarkNetWalletTool";
 
 
 export class DeployPrj extends AbstractPrj{

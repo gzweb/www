@@ -1,14 +1,11 @@
 
-import {Tools} from "../../tool/Tools";
-import {WalletTool} from "../../tool/WalletTool";
-import {AbstractPrj} from "./../AbstractPrj";
-import {TradeModel} from "../../model/TradeModel";
+import {Tools} from "tool/Tools";
+import {WalletTool} from "tool/WalletTool";
+import {AbstractPrj} from "AbstractPrj"; 
 import { Account, shortString,ec,Signature,Provider,stark,TransactionStatus,hash as sHash,CallData } from "starknet";
 
-import {StarkNetWalletTool} from "../../tool/StarkNetWalletTool";
-import {MultiWalletTool} from "../../tool/MultiWalletTool";
-import {SetData} from "../../../../briq-builder/src/builder/SetData";
-import SetContract from "../../../../briq-builder/src/chain/contracts/set";
+import {StarkNetWalletTool} from "tool/StarkNetWalletTool";
+import {MultiWalletTool} from "tool/MultiWalletTool"; 
 import axios from 'axios';
 
 

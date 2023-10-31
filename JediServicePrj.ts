@@ -1,13 +1,12 @@
 
-import {Tools} from "../../tool/Tools";
-import {WalletTool} from "../../tool/WalletTool";
-import {AbstractPrj} from "./../AbstractPrj";
-import {TradeModel} from "../../model/TradeModel";
+import {Tools} from "tool/Tools";
+import {WalletTool} from "tool/WalletTool";
+import {AbstractPrj} from "AbstractPrj"; 
 import { Account, shortString,ec,Signature,Provider,stark,TransactionStatus,hash,CallData } from "starknet";
 
-import {StarkNetWalletTool} from "../../tool/StarkNetWalletTool";
-import {MultiWalletTool} from "../../tool/MultiWalletTool";
-import {JediService} from "../../service/stark/JediService";
+import {StarkNetWalletTool} from "tool/StarkNetWalletTool";
+import {MultiWalletTool} from "tool/MultiWalletTool";
+import {JediService} from "service/stark/JediService";
 
 
 export class JediServicePrj extends AbstractPrj{

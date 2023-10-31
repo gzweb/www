@@ -1,9 +1,9 @@
-import {Tools} from '../../tool/Tools';
-import {CurrencyAmount, JSBI, Percent, Route, Router, Pair,Token, TokenAmount, Trade, TradeType} from "../../jediswap-sdk";
+import {Tools} from 'tool/Tools';
+import {CurrencyAmount, JSBI, Percent, Route, Router, Pair,Token, TokenAmount, Trade, TradeType} from "jediswap-sdk";
 import { Account, shortString,ec,RawArgs,Provider,uint256,stark,TransactionStatus,hash,CallData } from "starknet";
-import {Currency} from "../../jediswap-sdk/src";
-import {WalletTool} from "../../tool/WalletTool";
-import {StarkNetWalletTool} from "../../tool/StarkNetWalletTool";
+import {Currency} from "jediswap-sdk/src";
+import {WalletTool} from "tool/WalletTool";
+import {StarkNetWalletTool} from "tool/StarkNetWalletTool";
 import {ethers,utils} from "ethers";
 
 export class JediService {
